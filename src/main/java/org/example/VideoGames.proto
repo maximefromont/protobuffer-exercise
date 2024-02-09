@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package example;
+
+option java_multiple_files = true;
+option java_package = "java_out";
+option java_outer_classname = "VideoGamesProto";
+
+import "Util.proto";
+
+message VideoGame {
+  string name = 1; //Name of the game
+
+  enum GameType {
+    GENERIC = 0;
+    SPORTS = 1;
+    ADVENTURE = 2;
+    CRAFTING = 3;
+  }
+
+  GameType type = 2; //Type of the game (default is GENERIC)
+
+  Date releaseDate = 3; //Release date of the game in the GameReleaseDate format created above
+
+  message Match {
+    Date matchDate = 1;
+    optional int32 matchDuration = 2;
+  }
+
+  repeated Match matchPlayed = 4; //List of match played
+}
+
+message VideoGameLibrary {
+  repeated VideoGame game = 1; //List of games in the library
+}
