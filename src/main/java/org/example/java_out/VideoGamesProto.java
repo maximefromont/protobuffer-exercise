@@ -2,7 +2,7 @@
 // source: VideoGames.proto
 // Protobuf Java Version: 4.26.0-rc2
 
-package java_out;
+package org.example.java_out;
 
 public final class VideoGamesProto {
   private VideoGamesProto() {}
@@ -25,20 +25,20 @@ public final class VideoGamesProto {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_example_VideoGame_descriptor;
+    internal_static_org_example_VideoGame_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_example_VideoGame_fieldAccessorTable;
+      internal_static_org_example_VideoGame_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_example_VideoGame_Match_descriptor;
+    internal_static_org_example_VideoGame_Match_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_example_VideoGame_Match_fieldAccessorTable;
+      internal_static_org_example_VideoGame_Match_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_example_VideoGameLibrary_descriptor;
+    internal_static_org_example_VideoGameLibrary_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_example_VideoGameLibrary_fieldAccessorTable;
+      internal_static_org_example_VideoGameLibrary_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -48,44 +48,44 @@ public final class VideoGamesProto {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020VideoGames.proto\022\007example\032\nUtil.proto\"" +
-      "\262\002\n\tVideoGame\022\014\n\004name\030\001 \001(\t\022)\n\004type\030\002 \001(" +
-      "\0162\033.example.VideoGame.GameType\022\"\n\013releas" +
-      "eDate\030\003 \001(\0132\r.example.Date\022-\n\013matchPlaye" +
-      "d\030\004 \003(\0132\030.example.VideoGame.Match\032W\n\005Mat" +
-      "ch\022 \n\tmatchDate\030\001 \001(\0132\r.example.Date\022\032\n\r" +
-      "matchDuration\030\002 \001(\005H\000\210\001\001B\020\n\016_matchDurati" +
-      "on\"@\n\010GameType\022\013\n\007GENERIC\020\000\022\n\n\006SPORTS\020\001\022" +
-      "\r\n\tADVENTURE\020\002\022\014\n\010CRAFTING\020\003\"4\n\020VideoGam" +
-      "eLibrary\022 \n\004game\030\001 \003(\0132\022.example.VideoGa" +
-      "meB\035\n\010java_outB\017VideoGamesProtoP\001b\006proto" +
-      "3"
+      "\n\020VideoGames.proto\022\013org.example\032\nUtil.pr" +
+      "oto\"\302\002\n\tVideoGame\022\014\n\004name\030\001 \001(\t\022-\n\004type\030" +
+      "\002 \001(\0162\037.org.example.VideoGame.GameType\022&" +
+      "\n\013releaseDate\030\003 \001(\0132\021.org.example.Date\0221" +
+      "\n\013matchPlayed\030\004 \003(\0132\034.org.example.VideoG" +
+      "ame.Match\032[\n\005Match\022$\n\tmatchDate\030\001 \001(\0132\021." +
+      "org.example.Date\022\032\n\rmatchDuration\030\002 \001(\005H" +
+      "\000\210\001\001B\020\n\016_matchDuration\"@\n\010GameType\022\013\n\007GE" +
+      "NERIC\020\000\022\n\n\006SPORTS\020\001\022\r\n\tADVENTURE\020\002\022\014\n\010CR" +
+      "AFTING\020\003\"8\n\020VideoGameLibrary\022$\n\004game\030\001 \003" +
+      "(\0132\026.org.example.VideoGameB)\n\024org.exampl" +
+      "e.java_outB\017VideoGamesProtoP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          java_out.UtilProto.getDescriptor(),
+          org.example.java_out.UtilProto.getDescriptor(),
         });
-    internal_static_example_VideoGame_descriptor =
+    internal_static_org_example_VideoGame_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_example_VideoGame_fieldAccessorTable = new
+    internal_static_org_example_VideoGame_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_example_VideoGame_descriptor,
+        internal_static_org_example_VideoGame_descriptor,
         new java.lang.String[] { "Name", "Type", "ReleaseDate", "MatchPlayed", });
-    internal_static_example_VideoGame_Match_descriptor =
-      internal_static_example_VideoGame_descriptor.getNestedTypes().get(0);
-    internal_static_example_VideoGame_Match_fieldAccessorTable = new
+    internal_static_org_example_VideoGame_Match_descriptor =
+      internal_static_org_example_VideoGame_descriptor.getNestedTypes().get(0);
+    internal_static_org_example_VideoGame_Match_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_example_VideoGame_Match_descriptor,
+        internal_static_org_example_VideoGame_Match_descriptor,
         new java.lang.String[] { "MatchDate", "MatchDuration", });
-    internal_static_example_VideoGameLibrary_descriptor =
+    internal_static_org_example_VideoGameLibrary_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_example_VideoGameLibrary_fieldAccessorTable = new
+    internal_static_org_example_VideoGameLibrary_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_example_VideoGameLibrary_descriptor,
+        internal_static_org_example_VideoGameLibrary_descriptor,
         new java.lang.String[] { "Game", });
     descriptor.resolveAllFeaturesImmutable();
-    java_out.UtilProto.getDescriptor();
+    org.example.java_out.UtilProto.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

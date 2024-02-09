@@ -2,7 +2,7 @@
 // source: Util.proto
 // Protobuf Java Version: 4.26.0-rc2
 
-package java_out;
+package org.example.java_out;
 
 public final class UtilProto {
   private UtilProto() {}
@@ -25,10 +25,10 @@ public final class UtilProto {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_example_Date_descriptor;
+    internal_static_org_example_Date_descriptor;
   static final 
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_example_Date_fieldAccessorTable;
+      internal_static_org_example_Date_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -38,19 +38,19 @@ public final class UtilProto {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\nUtil.proto\022\007example\"0\n\004Date\022\014\n\004year\030\001 " +
-      "\001(\005\022\r\n\005month\030\002 \001(\005\022\013\n\003day\030\003 \001(\005B\027\n\010java_" +
-      "outB\tUtilProtoP\001b\006proto3"
+      "\n\nUtil.proto\022\013org.example\"0\n\004Date\022\014\n\004yea" +
+      "r\030\001 \001(\005\022\r\n\005month\030\002 \001(\005\022\013\n\003day\030\003 \001(\005B#\n\024o" +
+      "rg.example.java_outB\tUtilProtoP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_example_Date_descriptor =
+    internal_static_org_example_Date_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_example_Date_fieldAccessorTable = new
+    internal_static_org_example_Date_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_example_Date_descriptor,
+        internal_static_org_example_Date_descriptor,
         new java.lang.String[] { "Year", "Month", "Day", });
     descriptor.resolveAllFeaturesImmutable();
   }

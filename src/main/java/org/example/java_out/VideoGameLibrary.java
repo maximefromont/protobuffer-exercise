@@ -2,14 +2,14 @@
 // source: VideoGames.proto
 
 // Protobuf Java Version: 4.26.0-rc2
-package java_out;
+package org.example.java_out;
 
 /**
- * Protobuf type {@code example.VideoGameLibrary}
+ * Protobuf type {@code org.example.VideoGameLibrary}
  */
 public final class VideoGameLibrary extends
     com.google.protobuf.GeneratedMessage implements
-    // @@protoc_insertion_point(message_implements:example.VideoGameLibrary)
+    // @@protoc_insertion_point(message_implements:org.example.VideoGameLibrary)
     VideoGameLibraryOrBuilder {
 private static final long serialVersionUID = 0L;
   static {
@@ -31,29 +31,29 @@ private static final long serialVersionUID = 0L;
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return java_out.VideoGamesProto.internal_static_example_VideoGameLibrary_descriptor;
+    return org.example.java_out.VideoGamesProto.internal_static_org_example_VideoGameLibrary_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return java_out.VideoGamesProto.internal_static_example_VideoGameLibrary_fieldAccessorTable
+    return org.example.java_out.VideoGamesProto.internal_static_org_example_VideoGameLibrary_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            java_out.VideoGameLibrary.class, java_out.VideoGameLibrary.Builder.class);
+            org.example.java_out.VideoGameLibrary.class, org.example.java_out.VideoGameLibrary.Builder.class);
   }
 
   public static final int GAME_FIELD_NUMBER = 1;
   @SuppressWarnings("serial")
-  private java.util.List<java_out.VideoGame> game_;
+  private java.util.List<org.example.java_out.VideoGame> game_;
   /**
    * <pre>
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
   @java.lang.Override
-  public java.util.List<java_out.VideoGame> getGameList() {
+  public java.util.List<org.example.java_out.VideoGame> getGameList() {
     return game_;
   }
   /**
@@ -61,10 +61,10 @@ private static final long serialVersionUID = 0L;
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
   @java.lang.Override
-  public java.util.List<? extends java_out.VideoGameOrBuilder> 
+  public java.util.List<? extends org.example.java_out.VideoGameOrBuilder> 
       getGameOrBuilderList() {
     return game_;
   }
@@ -73,7 +73,7 @@ private static final long serialVersionUID = 0L;
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
   @java.lang.Override
   public int getGameCount() {
@@ -84,10 +84,10 @@ private static final long serialVersionUID = 0L;
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
   @java.lang.Override
-  public java_out.VideoGame getGame(int index) {
+  public org.example.java_out.VideoGame getGame(int index) {
     return game_.get(index);
   }
   /**
@@ -95,10 +95,10 @@ private static final long serialVersionUID = 0L;
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
   @java.lang.Override
-  public java_out.VideoGameOrBuilder getGameOrBuilder(
+  public org.example.java_out.VideoGameOrBuilder getGameOrBuilder(
       int index) {
     return game_.get(index);
   }
@@ -143,10 +143,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof java_out.VideoGameLibrary)) {
+    if (!(obj instanceof org.example.java_out.VideoGameLibrary)) {
       return super.equals(obj);
     }
-    java_out.VideoGameLibrary other = (java_out.VideoGameLibrary) obj;
+    org.example.java_out.VideoGameLibrary other = (org.example.java_out.VideoGameLibrary) obj;
 
     if (!getGameList()
         .equals(other.getGameList())) return false;
@@ -170,44 +170,44 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static java_out.VideoGameLibrary parseFrom(
+  public static org.example.java_out.VideoGameLibrary parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static java_out.VideoGameLibrary parseFrom(
+  public static org.example.java_out.VideoGameLibrary parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static java_out.VideoGameLibrary parseFrom(
+  public static org.example.java_out.VideoGameLibrary parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static java_out.VideoGameLibrary parseFrom(
+  public static org.example.java_out.VideoGameLibrary parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static java_out.VideoGameLibrary parseFrom(byte[] data)
+  public static org.example.java_out.VideoGameLibrary parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static java_out.VideoGameLibrary parseFrom(
+  public static org.example.java_out.VideoGameLibrary parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static java_out.VideoGameLibrary parseFrom(java.io.InputStream input)
+  public static org.example.java_out.VideoGameLibrary parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static java_out.VideoGameLibrary parseFrom(
+  public static org.example.java_out.VideoGameLibrary parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -215,26 +215,26 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  public static java_out.VideoGameLibrary parseDelimitedFrom(java.io.InputStream input)
+  public static org.example.java_out.VideoGameLibrary parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input);
   }
 
-  public static java_out.VideoGameLibrary parseDelimitedFrom(
+  public static org.example.java_out.VideoGameLibrary parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static java_out.VideoGameLibrary parseFrom(
+  public static org.example.java_out.VideoGameLibrary parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static java_out.VideoGameLibrary parseFrom(
+  public static org.example.java_out.VideoGameLibrary parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -247,7 +247,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(java_out.VideoGameLibrary prototype) {
+  public static Builder newBuilder(org.example.java_out.VideoGameLibrary prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -263,26 +263,26 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code example.VideoGameLibrary}
+   * Protobuf type {@code org.example.VideoGameLibrary}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:example.VideoGameLibrary)
-      java_out.VideoGameLibraryOrBuilder {
+      // @@protoc_insertion_point(builder_implements:org.example.VideoGameLibrary)
+      org.example.java_out.VideoGameLibraryOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return java_out.VideoGamesProto.internal_static_example_VideoGameLibrary_descriptor;
+      return org.example.java_out.VideoGamesProto.internal_static_org_example_VideoGameLibrary_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return java_out.VideoGamesProto.internal_static_example_VideoGameLibrary_fieldAccessorTable
+      return org.example.java_out.VideoGamesProto.internal_static_org_example_VideoGameLibrary_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              java_out.VideoGameLibrary.class, java_out.VideoGameLibrary.Builder.class);
+              org.example.java_out.VideoGameLibrary.class, org.example.java_out.VideoGameLibrary.Builder.class);
     }
 
-    // Construct using java_out.VideoGameLibrary.newBuilder()
+    // Construct using org.example.java_out.VideoGameLibrary.newBuilder()
     private Builder() {
 
     }
@@ -309,17 +309,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return java_out.VideoGamesProto.internal_static_example_VideoGameLibrary_descriptor;
+      return org.example.java_out.VideoGamesProto.internal_static_org_example_VideoGameLibrary_descriptor;
     }
 
     @java.lang.Override
-    public java_out.VideoGameLibrary getDefaultInstanceForType() {
-      return java_out.VideoGameLibrary.getDefaultInstance();
+    public org.example.java_out.VideoGameLibrary getDefaultInstanceForType() {
+      return org.example.java_out.VideoGameLibrary.getDefaultInstance();
     }
 
     @java.lang.Override
-    public java_out.VideoGameLibrary build() {
-      java_out.VideoGameLibrary result = buildPartial();
+    public org.example.java_out.VideoGameLibrary build() {
+      org.example.java_out.VideoGameLibrary result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -327,15 +327,15 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public java_out.VideoGameLibrary buildPartial() {
-      java_out.VideoGameLibrary result = new java_out.VideoGameLibrary(this);
+    public org.example.java_out.VideoGameLibrary buildPartial() {
+      org.example.java_out.VideoGameLibrary result = new org.example.java_out.VideoGameLibrary(this);
       buildPartialRepeatedFields(result);
       if (bitField0_ != 0) { buildPartial0(result); }
       onBuilt();
       return result;
     }
 
-    private void buildPartialRepeatedFields(java_out.VideoGameLibrary result) {
+    private void buildPartialRepeatedFields(org.example.java_out.VideoGameLibrary result) {
       if (gameBuilder_ == null) {
         if (((bitField0_ & 0x00000001) != 0)) {
           game_ = java.util.Collections.unmodifiableList(game_);
@@ -347,22 +347,22 @@ private static final long serialVersionUID = 0L;
       }
     }
 
-    private void buildPartial0(java_out.VideoGameLibrary result) {
+    private void buildPartial0(org.example.java_out.VideoGameLibrary result) {
       int from_bitField0_ = bitField0_;
     }
 
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof java_out.VideoGameLibrary) {
-        return mergeFrom((java_out.VideoGameLibrary)other);
+      if (other instanceof org.example.java_out.VideoGameLibrary) {
+        return mergeFrom((org.example.java_out.VideoGameLibrary)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(java_out.VideoGameLibrary other) {
-      if (other == java_out.VideoGameLibrary.getDefaultInstance()) return this;
+    public Builder mergeFrom(org.example.java_out.VideoGameLibrary other) {
+      if (other == org.example.java_out.VideoGameLibrary.getDefaultInstance()) return this;
       if (gameBuilder_ == null) {
         if (!other.game_.isEmpty()) {
           if (game_.isEmpty()) {
@@ -416,9 +416,9 @@ private static final long serialVersionUID = 0L;
               done = true;
               break;
             case 10: {
-              java_out.VideoGame m =
+              org.example.java_out.VideoGame m =
                   input.readMessage(
-                      java_out.VideoGame.parser(),
+                      org.example.java_out.VideoGame.parser(),
                       extensionRegistry);
               if (gameBuilder_ == null) {
                 ensureGameIsMutable();
@@ -445,26 +445,26 @@ private static final long serialVersionUID = 0L;
     }
     private int bitField0_;
 
-    private java.util.List<java_out.VideoGame> game_ =
+    private java.util.List<org.example.java_out.VideoGame> game_ =
       java.util.Collections.emptyList();
     private void ensureGameIsMutable() {
       if (!((bitField0_ & 0x00000001) != 0)) {
-        game_ = new java.util.ArrayList<java_out.VideoGame>(game_);
+        game_ = new java.util.ArrayList<org.example.java_out.VideoGame>(game_);
         bitField0_ |= 0x00000001;
        }
     }
 
     private com.google.protobuf.RepeatedFieldBuilder<
-        java_out.VideoGame, java_out.VideoGame.Builder, java_out.VideoGameOrBuilder> gameBuilder_;
+        org.example.java_out.VideoGame, org.example.java_out.VideoGame.Builder, org.example.java_out.VideoGameOrBuilder> gameBuilder_;
 
     /**
      * <pre>
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public java.util.List<java_out.VideoGame> getGameList() {
+    public java.util.List<org.example.java_out.VideoGame> getGameList() {
       if (gameBuilder_ == null) {
         return java.util.Collections.unmodifiableList(game_);
       } else {
@@ -476,7 +476,7 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public int getGameCount() {
       if (gameBuilder_ == null) {
@@ -490,9 +490,9 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public java_out.VideoGame getGame(int index) {
+    public org.example.java_out.VideoGame getGame(int index) {
       if (gameBuilder_ == null) {
         return game_.get(index);
       } else {
@@ -504,10 +504,10 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public Builder setGame(
-        int index, java_out.VideoGame value) {
+        int index, org.example.java_out.VideoGame value) {
       if (gameBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -525,10 +525,10 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public Builder setGame(
-        int index, java_out.VideoGame.Builder builderForValue) {
+        int index, org.example.java_out.VideoGame.Builder builderForValue) {
       if (gameBuilder_ == null) {
         ensureGameIsMutable();
         game_.set(index, builderForValue.build());
@@ -543,9 +543,9 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public Builder addGame(java_out.VideoGame value) {
+    public Builder addGame(org.example.java_out.VideoGame value) {
       if (gameBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -563,10 +563,10 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public Builder addGame(
-        int index, java_out.VideoGame value) {
+        int index, org.example.java_out.VideoGame value) {
       if (gameBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -584,10 +584,10 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public Builder addGame(
-        java_out.VideoGame.Builder builderForValue) {
+        org.example.java_out.VideoGame.Builder builderForValue) {
       if (gameBuilder_ == null) {
         ensureGameIsMutable();
         game_.add(builderForValue.build());
@@ -602,10 +602,10 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public Builder addGame(
-        int index, java_out.VideoGame.Builder builderForValue) {
+        int index, org.example.java_out.VideoGame.Builder builderForValue) {
       if (gameBuilder_ == null) {
         ensureGameIsMutable();
         game_.add(index, builderForValue.build());
@@ -620,10 +620,10 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public Builder addAllGame(
-        java.lang.Iterable<? extends java_out.VideoGame> values) {
+        java.lang.Iterable<? extends org.example.java_out.VideoGame> values) {
       if (gameBuilder_ == null) {
         ensureGameIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -639,7 +639,7 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public Builder clearGame() {
       if (gameBuilder_ == null) {
@@ -656,7 +656,7 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
     public Builder removeGame(int index) {
       if (gameBuilder_ == null) {
@@ -673,9 +673,9 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public java_out.VideoGame.Builder getGameBuilder(
+    public org.example.java_out.VideoGame.Builder getGameBuilder(
         int index) {
       return getGameFieldBuilder().getBuilder(index);
     }
@@ -684,9 +684,9 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public java_out.VideoGameOrBuilder getGameOrBuilder(
+    public org.example.java_out.VideoGameOrBuilder getGameOrBuilder(
         int index) {
       if (gameBuilder_ == null) {
         return game_.get(index);  } else {
@@ -698,9 +698,9 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public java.util.List<? extends java_out.VideoGameOrBuilder> 
+    public java.util.List<? extends org.example.java_out.VideoGameOrBuilder> 
          getGameOrBuilderList() {
       if (gameBuilder_ != null) {
         return gameBuilder_.getMessageOrBuilderList();
@@ -713,41 +713,41 @@ private static final long serialVersionUID = 0L;
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public java_out.VideoGame.Builder addGameBuilder() {
+    public org.example.java_out.VideoGame.Builder addGameBuilder() {
       return getGameFieldBuilder().addBuilder(
-          java_out.VideoGame.getDefaultInstance());
+          org.example.java_out.VideoGame.getDefaultInstance());
     }
     /**
      * <pre>
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public java_out.VideoGame.Builder addGameBuilder(
+    public org.example.java_out.VideoGame.Builder addGameBuilder(
         int index) {
       return getGameFieldBuilder().addBuilder(
-          index, java_out.VideoGame.getDefaultInstance());
+          index, org.example.java_out.VideoGame.getDefaultInstance());
     }
     /**
      * <pre>
      * List of games in the library
      * </pre>
      *
-     * <code>repeated .example.VideoGame game = 1;</code>
+     * <code>repeated .org.example.VideoGame game = 1;</code>
      */
-    public java.util.List<java_out.VideoGame.Builder> 
+    public java.util.List<org.example.java_out.VideoGame.Builder> 
          getGameBuilderList() {
       return getGameFieldBuilder().getBuilderList();
     }
     private com.google.protobuf.RepeatedFieldBuilder<
-        java_out.VideoGame, java_out.VideoGame.Builder, java_out.VideoGameOrBuilder> 
+        org.example.java_out.VideoGame, org.example.java_out.VideoGame.Builder, org.example.java_out.VideoGameOrBuilder> 
         getGameFieldBuilder() {
       if (gameBuilder_ == null) {
         gameBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-            java_out.VideoGame, java_out.VideoGame.Builder, java_out.VideoGameOrBuilder>(
+            org.example.java_out.VideoGame, org.example.java_out.VideoGame.Builder, org.example.java_out.VideoGameOrBuilder>(
                 game_,
                 ((bitField0_ & 0x00000001) != 0),
                 getParentForChildren(),
@@ -757,16 +757,16 @@ private static final long serialVersionUID = 0L;
       return gameBuilder_;
     }
 
-    // @@protoc_insertion_point(builder_scope:example.VideoGameLibrary)
+    // @@protoc_insertion_point(builder_scope:org.example.VideoGameLibrary)
   }
 
-  // @@protoc_insertion_point(class_scope:example.VideoGameLibrary)
-  private static final java_out.VideoGameLibrary DEFAULT_INSTANCE;
+  // @@protoc_insertion_point(class_scope:org.example.VideoGameLibrary)
+  private static final org.example.java_out.VideoGameLibrary DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new java_out.VideoGameLibrary();
+    DEFAULT_INSTANCE = new org.example.java_out.VideoGameLibrary();
   }
 
-  public static java_out.VideoGameLibrary getDefaultInstance() {
+  public static org.example.java_out.VideoGameLibrary getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -802,7 +802,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @java.lang.Override
-  public java_out.VideoGameLibrary getDefaultInstanceForType() {
+  public org.example.java_out.VideoGameLibrary getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 

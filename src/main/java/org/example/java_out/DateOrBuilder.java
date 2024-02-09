@@ -2,10 +2,10 @@
 // source: Util.proto
 
 // Protobuf Java Version: 4.26.0-rc2
-package java_out;
+package org.example.java_out;
 
 public interface DateOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:example.Date)
+    // @@protoc_insertion_point(interface_extends:org.example.Date)
     com.google.protobuf.MessageOrBuilder {
 
   /**

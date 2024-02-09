@@ -2,10 +2,10 @@
 // source: VideoGames.proto
 
 // Protobuf Java Version: 4.26.0-rc2
-package java_out;
+package org.example.java_out;
 
 public interface VideoGameLibraryOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:example.VideoGameLibrary)
+    // @@protoc_insertion_point(interface_extends:org.example.VideoGameLibrary)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -13,24 +13,24 @@ public interface VideoGameLibraryOrBuilder extends
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
-  java.util.List<java_out.VideoGame> 
+  java.util.List<org.example.java_out.VideoGame> 
       getGameList();
   /**
    * <pre>
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
-  java_out.VideoGame getGame(int index);
+  org.example.java_out.VideoGame getGame(int index);
   /**
    * <pre>
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
   int getGameCount();
   /**
@@ -38,17 +38,17 @@ public interface VideoGameLibraryOrBuilder extends
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
-  java.util.List<? extends java_out.VideoGameOrBuilder> 
+  java.util.List<? extends org.example.java_out.VideoGameOrBuilder> 
       getGameOrBuilderList();
   /**
    * <pre>
    * List of games in the library
    * </pre>
    *
-   * <code>repeated .example.VideoGame game = 1;</code>
+   * <code>repeated .org.example.VideoGame game = 1;</code>
    */
-  java_out.VideoGameOrBuilder getGameOrBuilder(
+  org.example.java_out.VideoGameOrBuilder getGameOrBuilder(
       int index);
 }

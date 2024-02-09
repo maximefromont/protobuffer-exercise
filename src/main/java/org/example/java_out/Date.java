@@ -2,14 +2,14 @@
 // source: Util.proto
 
 // Protobuf Java Version: 4.26.0-rc2
-package java_out;
+package org.example.java_out;
 
 /**
- * Protobuf type {@code example.Date}
+ * Protobuf type {@code org.example.Date}
  */
 public final class Date extends
     com.google.protobuf.GeneratedMessage implements
-    // @@protoc_insertion_point(message_implements:example.Date)
+    // @@protoc_insertion_point(message_implements:org.example.Date)
     DateOrBuilder {
 private static final long serialVersionUID = 0L;
   static {
@@ -30,15 +30,15 @@ private static final long serialVersionUID = 0L;
 
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return java_out.UtilProto.internal_static_example_Date_descriptor;
+    return org.example.java_out.UtilProto.internal_static_org_example_Date_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return java_out.UtilProto.internal_static_example_Date_fieldAccessorTable
+    return org.example.java_out.UtilProto.internal_static_org_example_Date_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            java_out.Date.class, java_out.Date.Builder.class);
+            org.example.java_out.Date.class, org.example.java_out.Date.Builder.class);
   }
 
   public static final int YEAR_FIELD_NUMBER = 1;
@@ -128,10 +128,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof java_out.Date)) {
+    if (!(obj instanceof org.example.java_out.Date)) {
       return super.equals(obj);
     }
-    java_out.Date other = (java_out.Date) obj;
+    org.example.java_out.Date other = (org.example.java_out.Date) obj;
 
     if (getYear()
         != other.getYear()) return false;
@@ -161,44 +161,44 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static java_out.Date parseFrom(
+  public static org.example.java_out.Date parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static java_out.Date parseFrom(
+  public static org.example.java_out.Date parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static java_out.Date parseFrom(
+  public static org.example.java_out.Date parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static java_out.Date parseFrom(
+  public static org.example.java_out.Date parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static java_out.Date parseFrom(byte[] data)
+  public static org.example.java_out.Date parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static java_out.Date parseFrom(
+  public static org.example.java_out.Date parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static java_out.Date parseFrom(java.io.InputStream input)
+  public static org.example.java_out.Date parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static java_out.Date parseFrom(
+  public static org.example.java_out.Date parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -206,26 +206,26 @@ private static final long serialVersionUID = 0L;
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
 
-  public static java_out.Date parseDelimitedFrom(java.io.InputStream input)
+  public static org.example.java_out.Date parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input);
   }
 
-  public static java_out.Date parseDelimitedFrom(
+  public static org.example.java_out.Date parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static java_out.Date parseFrom(
+  public static org.example.java_out.Date parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessage
         .parseWithIOException(PARSER, input);
   }
-  public static java_out.Date parseFrom(
+  public static org.example.java_out.Date parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -238,7 +238,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(java_out.Date prototype) {
+  public static Builder newBuilder(org.example.java_out.Date prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -254,26 +254,26 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code example.Date}
+   * Protobuf type {@code org.example.Date}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:example.Date)
-      java_out.DateOrBuilder {
+      // @@protoc_insertion_point(builder_implements:org.example.Date)
+      org.example.java_out.DateOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return java_out.UtilProto.internal_static_example_Date_descriptor;
+      return org.example.java_out.UtilProto.internal_static_org_example_Date_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return java_out.UtilProto.internal_static_example_Date_fieldAccessorTable
+      return org.example.java_out.UtilProto.internal_static_org_example_Date_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              java_out.Date.class, java_out.Date.Builder.class);
+              org.example.java_out.Date.class, org.example.java_out.Date.Builder.class);
     }
 
-    // Construct using java_out.Date.newBuilder()
+    // Construct using org.example.java_out.Date.newBuilder()
     private Builder() {
 
     }
@@ -296,17 +296,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return java_out.UtilProto.internal_static_example_Date_descriptor;
+      return org.example.java_out.UtilProto.internal_static_org_example_Date_descriptor;
     }
 
     @java.lang.Override
-    public java_out.Date getDefaultInstanceForType() {
-      return java_out.Date.getDefaultInstance();
+    public org.example.java_out.Date getDefaultInstanceForType() {
+      return org.example.java_out.Date.getDefaultInstance();
     }
 
     @java.lang.Override
-    public java_out.Date build() {
-      java_out.Date result = buildPartial();
+    public org.example.java_out.Date build() {
+      org.example.java_out.Date result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -314,14 +314,14 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public java_out.Date buildPartial() {
-      java_out.Date result = new java_out.Date(this);
+    public org.example.java_out.Date buildPartial() {
+      org.example.java_out.Date result = new org.example.java_out.Date(this);
       if (bitField0_ != 0) { buildPartial0(result); }
       onBuilt();
       return result;
     }
 
-    private void buildPartial0(java_out.Date result) {
+    private void buildPartial0(org.example.java_out.Date result) {
       int from_bitField0_ = bitField0_;
       if (((from_bitField0_ & 0x00000001) != 0)) {
         result.year_ = year_;
@@ -336,16 +336,16 @@ private static final long serialVersionUID = 0L;
 
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof java_out.Date) {
-        return mergeFrom((java_out.Date)other);
+      if (other instanceof org.example.java_out.Date) {
+        return mergeFrom((org.example.java_out.Date)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(java_out.Date other) {
-      if (other == java_out.Date.getDefaultInstance()) return this;
+    public Builder mergeFrom(org.example.java_out.Date other) {
+      if (other == org.example.java_out.Date.getDefaultInstance()) return this;
       if (other.getYear() != 0) {
         setYear(other.getYear());
       }
@@ -509,16 +509,16 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    // @@protoc_insertion_point(builder_scope:example.Date)
+    // @@protoc_insertion_point(builder_scope:org.example.Date)
   }
 
-  // @@protoc_insertion_point(class_scope:example.Date)
-  private static final java_out.Date DEFAULT_INSTANCE;
+  // @@protoc_insertion_point(class_scope:org.example.Date)
+  private static final org.example.java_out.Date DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new java_out.Date();
+    DEFAULT_INSTANCE = new org.example.java_out.Date();
   }
 
-  public static java_out.Date getDefaultInstance() {
+  public static org.example.java_out.Date getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -554,7 +554,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @java.lang.Override
-  public java_out.Date getDefaultInstanceForType() {
+  public org.example.java_out.Date getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 
